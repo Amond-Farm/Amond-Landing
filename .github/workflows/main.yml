@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Script in server
-        uses: jujuwon/ssh-action@master
+        uses: Amond-Farm/amond-landing@master
         with:
           key: ${{ secrets.SSH_KEY }}
           host: ${{ secrets.HOST }}
