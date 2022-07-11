@@ -3405,6 +3405,10 @@ input, select, textarea {
 				opacity: 0;
 				visibility: hidden;
 			}
+		
+		#intro > #title {
+			margin-top: 10vh;
+		}
 
 		#intro.hidden {
 			pointer-events: none;
@@ -4697,8 +4701,8 @@ input, select, textarea {
 
 	#contact {
 		position: fixed;
-		top: 50px;
-		right: 100px;
+		top: 3vh;
+		right: 5vw;
 		z-index: 999;
 	}
 
@@ -4718,11 +4722,11 @@ input, select, textarea {
 }
 	
 .product .product-img {
-	height: 300px;
+	height: 40vh;
 }
 
 .product .product-img img {
-	height: 300px;
+	height: 40vh;
 }
 
 .product>.price {
