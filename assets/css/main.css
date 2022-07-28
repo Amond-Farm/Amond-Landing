@@ -3393,6 +3393,27 @@ input, select, textarea {
 			text-align: center;
 		}
 
+		#intro p .emphasis {
+			font-size: 30px;
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#intro p {
+				font-size: 1em;
+				line-break: strict;
+			}
+
+			#intro p .emphasis {
+				font-size: 20px;
+
+			}
+
+		}
+
+		
+
 		#intro + #header {
 			margin-top: -20rem;
 		}
@@ -4737,5 +4758,16 @@ input, select, textarea {
 #main-text {
 	text-align: center;
 	color: white;
-	margin: 10vh
+	margin: 5vh
+}
+
+@media screen and (max-width: 480px) {
+
+	#main-text {
+		text-align: center;
+		color: white;
+		margin: 3vh 0;
+		font-size: 20px;
+	}
+
 }
