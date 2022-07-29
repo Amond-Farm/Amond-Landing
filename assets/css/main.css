@@ -3976,18 +3976,20 @@ input, select, textarea {
 		}
 
 /* Footer */
-g
+
 	#footer {
 		color: #717981;
 		background-color: rgba(0, 0, 0, 0);
-		color: #c2c9d0;
+		color: #b2c1cf;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
+		margin-top: 10vh;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 		font-size: 12px;
+
 	}
 
 		#footer input, #footer select, #footer textarea {
